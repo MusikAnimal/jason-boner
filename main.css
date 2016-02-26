@@ -1,0 +1,503 @@
+                                                                        /*MAIN START*/
+body {
+    background-color: #f9f9f9;
+    color: #101010;
+    font-family: sans-serif;
+    margin: 0;
+    font-family: 'Open Sans Condensed';
+}
+
+#blog, #resume, #photo, #contact, #music {
+    margin: 40px auto 20px auto;
+    width: 60%;
+}
+                                                                        /*MAIN END*/
+
+
+
+
+                                                                        /*NAV START*/
+#nav {
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 50px;
+    margin: 0 50px;
+}
+
+.name {
+    float:left;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0;
+    margin-top: -2px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Josefin Sans";
+}
+
+#nav li {
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    color: #101010;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#nav .active li {
+    background-color: #101010;
+}
+
+#nav .active li a {
+    color: #fff;
+}
+                                                                        /*NAV END*/
+
+
+
+                                                                        /*FOOTER START*/
+#footer {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 12.5px;
+    bottom: 0;
+}
+
+#footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+#footer p {
+    margin: 0
+}
+
+#footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px 0 5px;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: #101010;
+    padding: 2px;
+}
+
+#footer li a:visited {
+    color: #101010;
+}
+																		/*FOOTER END*/
+
+
+
+																		/*HOME START*/
+#home {
+	margin: 5px auto 20px auto;
+	width: 100%;
+   	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 550px;
+}
+
+#home img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+    width: 100%;
+    height: 100%;
+}
+																		/*HOME END*/
+
+
+
+                                                                        /*BLOG START*/
+#blog h1 { 
+    margin: 0;
+    font-size: 16px; 
+}
+
+#blog h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+#blog p {
+    font-size: 14px;
+}
+                                                                        /*BLOG END*/
+
+
+
+                                                                        /*RESUME START*/
+#resume {
+    border: 4px double #ddd;
+    font-family: Merriweather;
+    background-color: #fcfcfc;
+}
+
+.resumewrapper {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#resume h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+.resume-bar {
+    border-bottom: 1px solid #ddd;
+}
+
+#resume h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+#resume ul {
+    margin: 0 auto 20px auto;
+    padding: 0 15px;
+}
+
+#resume li {
+    clear: both;
+    font-weight: 300;
+    font-size: .9vw;
+    line-height: 1.75;
+    margin-top: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    vertical-align: baseline;
+    padding: 0;
+}
+
+.left {
+    text-align: left;
+    font-size: 1.25vw; 
+    font-weight: 700;
+}
+
+.right {
+    text-align: right;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.left2 {
+    text-align: left;
+    font-size: 1vw;
+}
+
+.right2 {
+    text-align: right;
+    font-size: 1vw;
+}
+
+.skills {
+    text-align: center;
+    clear: both;
+    font-weight: 300;
+    font-size: .9vw;
+    line-height: 1.75;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+                                                                         /*RESUME END*/
+
+
+
+                                                                         /*MUSIC START*/
+    #music {
+        text-align: center;
+    }
+
+    #music h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    #music h2 {
+        margin: 0 auto 10px auto;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    #music h3 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    #music p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    iframe {
+        border: 0; 
+        width: 400px; 
+        height: 307px;
+    }
+                                                                         /*MUSIC END*/
+
+
+
+                                                                         /*PHOTOGRAPHY START*/
+
+
+                                                                        /*PHOTOGRAPHY END*/
+
+
+
+                                                                         /*CONTACT START*/
+
+#contact p {
+    margin: 30 auto;
+    padding: 0 5%;
+}
+
+.contact-container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container h1 {
+    margin: 0;
+}
+
+input[type="text"], textarea {
+    display: block;
+    margin: 5px auto 15px auto;
+    padding: 6px 8px;
+    width: 80%;
+    box-sizing: border-box;
+    background: #eee;
+    resize: none;
+}
+
+.extrabox textarea {
+    width: 80%;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+form p {
+    margin: 20px 0 5px;
+}
+
+.form-container p {
+    padding-top: 10px;
+}
+
+label {
+    margin-left: 10%;
+}
+
+label[for="extra"] {
+    margin-top: 20px;
+    margin-left: 10%;
+    display: block;
+}
+
+input:focus, textarea:focus {
+    background: #fafafa;
+}
+
+form {
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding: 30px;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.submit {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10%;
+    background-color: #101010;
+    padding: 5px;
+}
+
+.submit a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+                                                                        /*CONTACT END*/
+
+
+
+
+                                                                        /*MEDIA QUERIES*/
+@media (max-width: 900px) {
+
+                                                                        /*MAIN START*/
+#blog, #contact, #resume, #music, #photo {
+    margin: 50px auto 20px auto;
+}
+
+.name {
+    float: none;
+    font-size: 30px;
+}
+
+#nav li {
+    float: none;
+}
+
+#nav li a {
+    padding: 10px;
+}
+
+#nav {
+    text-align: center;
+    font-size: 16px;
+    height: 220px;
+}
+
+#home {
+	height: 450px;
+    margin: 20px auto 20px auto;
+}
+
+#resume, #blog {
+    width: 80%;
+}
+
+.left {
+    font-size: 14px;
+}
+
+.right, .left2, .right2 {
+    font-size: 12px;
+}
+
+#resume li, .skills {
+    font-size: 10px;
+}
+
+#contact, #music, #resume {
+	width: 90%;
+}
+
+.contact-container {
+	width: 100%;
+}
+
+form {
+    padding: 10px 0;
+}
+
+}
+
+@media (max-width: 630px) {
+
+#home img {
+    flex-shrink:0;
+    min-width: none;
+    min-height: none;
+    width: 100%;
+    height: 100%;
+    margin: 50px auto 20px auto;
+}
+
+#home {
+   	display: inline;
+}
+
+#resume {
+	width: 90%;
+}
+
+#resume h1 {
+	font-size: 20px;
+    margin-top: 10px;
+}
+
+#resume h2 {
+	font-size: 12px;
+}
+
+.left {
+	font-size: 14px;
+}
+
+.right, .left2, .right2 {
+	font-size: 9px;
+}
+
+#resume li, .skills {
+	font-size: 9px;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
+.resumewrapper {
+	padding: 10px;
+}
+
+#blog h1 {
+	font-size: 14px;
+}
+
+#blog h2 {
+	font-size: 12px;
+}
+
+#blog p {
+	font-size: 14px;
+}
+
+iframe {
+    width: 307px;
+    height: 350px;
+}
+
+#music h3 {
+    font-size: 12px;
+}
+
+#music p {
+    font-size: 9.5px;
+}
+
+#photo {
+    width: 80%;
+}
+
+}
