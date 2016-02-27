@@ -119,29 +119,28 @@ body {
 
 
                                                                         /*BLOG START*/
+
+#blog article {
+    width: 80%;
+}
 #blog h1 { 
     margin: 0 auto;
-    width: 80%;
     font-size: 16px; 
 }
 
 #blog h2 {
     margin: 0 auto;
-    width: 80%;
     font-size: 14px;
 }
 
 #blog p {
     font-size: 14px;
     margin: 20px auto;
-    width: 80%;
 }
-
 
 #blog img {
     margin: 10px auto;
     display: block;
-    width: 80%;
 }
 
 #blog article {
@@ -496,6 +495,10 @@ form {
 
 #blog p {
 	font-size: 14px;
+}
+
+#blog article {
+    width: 100%;
 }
 
 iframe {
