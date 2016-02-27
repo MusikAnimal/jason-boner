@@ -104,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 550px;
+    height: 525px;
 }
 
 #home img {
@@ -120,17 +120,27 @@ body {
 
                                                                         /*BLOG START*/
 #blog h1 { 
-    margin: 0;
+    margin: 0 auto;
+    width: 80%;
     font-size: 16px; 
 }
 
 #blog h2 {
-    margin: 0;
+    margin: 0 auto;
+    width: 80%;
     font-size: 14px;
 }
 
 #blog p {
     font-size: 14px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#blog img {
+    margin: 10px auto;
+    display: block;
+    width: 80%;
 }
                                                                         /*BLOG END*/
 
