@@ -137,10 +137,15 @@ body {
     width: 80%;
 }
 
+
 #blog img {
     margin: 10px auto;
     display: block;
     width: 80%;
+}
+
+#blog article {
+   padding-bottom: 30px;
 }
                                                                         /*BLOG END*/
 
