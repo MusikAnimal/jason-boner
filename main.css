@@ -152,7 +152,9 @@ body {
 #blog a {
     color: #101010;
     font-weight: bold;
+    text-decoration: none;
 }
+
 #blog a:visited {
     color: #101010;
     font-weight: bold;
