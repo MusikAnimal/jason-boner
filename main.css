@@ -148,6 +148,15 @@ body {
 #blog article {
    padding-bottom: 30px;
 }
+
+#blog a {
+    color: #101010;
+    font-weight: bold;
+}
+#blog a:visited {
+    color: #101010;
+    font-weight: bold;
+}
                                                                         /*BLOG END*/
 
 
