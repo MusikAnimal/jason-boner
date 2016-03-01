@@ -299,11 +299,18 @@ table td {
     display: inline;
 }
 
-.ss-form-entry.goog-inline-block {
-    border: 1px solid blue;
-        margin-left: 10%;
+.jfk-button.jfk-button-action {
+    margin-left: 10%;
+    background-color: #101010;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Open Sans Condensed'
 }
-
 
 #contact p {
     margin: 30 auto;
