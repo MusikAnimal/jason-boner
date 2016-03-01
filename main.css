@@ -126,16 +126,16 @@ body {
 }
 #blog h1 { 
     margin: 0 auto;
-    font-size: 16px; 
+    font-size: 18px; 
 }
 
 #blog h2 {
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #blog p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px auto;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 #blog article {
-   padding-bottom: 30px;
+   padding-bottom: 50px;
 }
 
 #blog a {
@@ -293,6 +293,17 @@ table td {
 
 
                                                                          /*CONTACT START*/
+
+
+.ss-q-title {
+    display: inline;
+}
+
+.ss-form-entry.goog-inline-block {
+    border: 1px solid blue;
+        margin-left: 10%;
+}
+
 
 #contact p {
     margin: 30 auto;
