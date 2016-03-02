@@ -374,7 +374,7 @@ label[for="extra"] {
 }
 
 input:focus, textarea:focus {
-    background: #fafafa;
+    background: #ccc;
 }
 
 form {
