@@ -56,6 +56,10 @@ body {
 #nav .active li a {
     color: #fff;
 }
+
+#nav-mobile {
+    display: none;
+}
                                                                         /*NAV END*/
 
 
@@ -411,7 +415,7 @@ form {
 
                                                                         /*MAIN START*/
 #blog, #contact, #resume, #music, #photo {
-    margin: 50px auto 20px auto;
+    margin: 20px auto;
 }
 
 .name {
@@ -419,18 +423,42 @@ form {
     font-size: 30px;
 }
 
-#nav li {
+#nav-mobile li {
     float: none;
 }
 
-#nav li a {
+#nav-mobile li a {
     padding: 10px;
+    display: block;
+    color: #101010;
+    text-decoration: none;
+}
+
+#nav-mobile {
+    text-align: center;
+    font-size: 16px;
+    height: 220px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: initial;
+}
+
+#nav-mobile ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Josefin Sans";
+}
+
+#nav-mobile .active li {
+    background-color: #101010;
+}
+
+#nav-mobile .active li a {
+    color: #fff;
 }
 
 #nav {
-    text-align: center;
-    font-size: 16px;
-    height: 190px;
+    display: none;
 }
 
 #home {
@@ -476,7 +504,7 @@ form {
     min-height: none;
     width: 100%;
     height: 100%;
-    margin: 20px auto 20px auto;
+    margin: 0 auto 20px auto;
 }
 
 #home {
