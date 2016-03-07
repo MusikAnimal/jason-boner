@@ -124,6 +124,10 @@ body {
 
                                                                         /*BLOG START*/
 
+#blog {
+    margin-bottom: 0;
+}
+
 #blog article {
     width: 80%;
     margin: 0 auto;
@@ -150,7 +154,7 @@ body {
 }
 
 #blog article {
-   padding-bottom: 50px;
+   padding-bottom: 25px;
 }
 
 #blog a {
@@ -163,6 +167,7 @@ body {
     color: #101010;
     font-weight: bold;
 }
+
                                                                         /*BLOG END*/
 
 
@@ -172,6 +177,7 @@ body {
     border: 4px double #ddd;
     font-family: Merriweather;
     background-color: #fcfcfc;
+    margin-bottom: 45px;
 }
 
 .resumewrapper {
@@ -272,12 +278,13 @@ table td {
     #music h3 {
         margin-top: 10px;
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #music p {
         margin-top: 0;
         font-size: 12px;
+        padding-bottom: 25px;
     }
 
     iframe {
@@ -291,6 +298,9 @@ table td {
 
                                                                          /*PHOTOGRAPHY START*/
 
+#photo {
+    margin-bottom: 45px;
+}
 
                                                                         /*PHOTOGRAPHY END*/
 
@@ -299,6 +309,9 @@ table td {
                                                                          /*CONTACT START*/
 
 
+#contact {
+    margin-bottom: 45px;
+}
 .ss-q-title {
     display: inline;
 }
@@ -566,11 +579,11 @@ iframe {
 }
 
 #music h3 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #music p {
-    font-size: 9.5px;
+    font-size: 9px;
 }
 
 #photo {
