@@ -132,9 +132,10 @@ body {
     width: 80%;
     margin: 0 auto;
 }
-#blog h1 { 
+#blog header { 
     margin: 0 auto;
     font-size: 18px; 
+    font-weight: bold;
 }
 
 #blog h2 {
@@ -167,6 +168,7 @@ body {
     color: #101010;
     font-weight: bold;
 }
+
 
                                                                         /*BLOG END*/
 
