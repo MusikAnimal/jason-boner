@@ -264,39 +264,39 @@ table td {
 
 
                                                                          /*MUSIC START*/
-    #music, #credits-desktop {
+    #music, .credits-desktop {
         text-align: center;
     }
 
-    #credits-desktop h1 {
+    .credits-desktop h1 {
         margin: 0;
         font-size: 20px;
     }
 
-    #credits-desktop h2 {
+    .credits-desktop h2 {
         margin: 0 auto 10px auto;
         font-size: 16px;
         font-weight: 100;
     }
 
-    #credits-desktop h3 {
+    .credits-desktop h3 {
         margin-top: 10px;
         margin-bottom: 0;
         font-size: 12px;
     }
 
-    #credits-desktop p {
+    .credits-desktop p {
         margin-top: 0;
         font-size: 12px;
         padding-bottom: 25px;
     }
 
-    #credits-mobile {
+    .credits-mobile {
         display: none;
         text-align: left;
     }
 
-    #credits-desktop {
+    .credits-desktop {
         display: block;
     }
 
@@ -630,17 +630,4 @@ iframe {
     display: none;
 }
 
-}
-
-
-
-
-
-
-
-
-
-#container {
-   min-height:100%;
-   position:relative;
 }
