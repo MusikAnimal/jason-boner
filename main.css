@@ -614,7 +614,7 @@ iframe {
 @media (max-width: 500px) { 
 
 #credits-mobile {
-    display: inline;
+    display: inline-block;
 }
 
 #credits-mobile h3 {

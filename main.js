@@ -16,7 +16,7 @@ $(document).ready(function() {
       var formattedDate = months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
 
       var escapedLink = encodeURIComponent(post.title.replace(/ /g,'_'));
-      var html = "<article name='" + escapedLink + "'>" +
+      var html = "<article id='" + escapedLink + "'>" +
           "<header>" + 
           "<a href='#" + escapedLink + "'>" + post.title + "</a>" + "</header>" +
           "<time>" + formattedDate + "</time>" +
