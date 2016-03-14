@@ -7,7 +7,7 @@ $(document).ready(function() {
     }
   }).then(function(data) {
     var posts = data.items;
-    
+
     posts.forEach(function(post) {
       var d = new Date(post.published);
       var months = new Array("JANUARY", "FEBRUARY", "MARCH",
@@ -17,7 +17,7 @@ $(document).ready(function() {
 
       var html = "<article id='" + post.id + "'>" +
           "<time>" + formattedDate + "</time>" +
-          "<header>" + 
+          "<header>" +
           "<a href='#" + post.id + "'>" + post.title + "</a>" +
           "</header><div class='post-body'>" + post.content + "</div>" +
           "</article>";
@@ -25,10 +25,8 @@ $(document).ready(function() {
       $("#blog").append(html).show();
     });
 
-    if(location.hash) {
-      setTimeout(function() {
-        $(location.hash)[0].scrollIntoView();
-      });
-    }
+    $("#blog").waitForImages(function() {
+      if(location.hash) $(location.hash)[0].scrollIntoView();
+    });
   });
 });
